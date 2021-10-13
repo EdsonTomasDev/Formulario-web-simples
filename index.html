@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuláio</title>
+    <link rel="stylesheet" href="./styles/index.css">
+
+  
+</head>
+<body>
+    <h1>Olá, sou um Formulário!</h1>
+
+    <form action=""><!-- INÍCIO DO FORMULÁRIO -->
+        <!-- FIELDSET PARA SEPARAR DADOS SEMELHANTES -->
+        <fieldset><!-- INÍCIO DOS CAMPOS DETALHES DE CONTATO -->
+            <legend>Detalhes de Contato</legend>
+            <div>
+                <label for="name">Nome</label> <!-- O FOR FAZ O CURSOR IR PARA O CAIXA DE TEXTO -->
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="email">Email</label> <!-- O FOR FAZ O CURSOR IR PARA O CAIXA DE TEXTO -->
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="password">Senha</label> <!-- O FOR FAZ O CURSOR IR PARA O CAIXA DE TEXTO -->
+                <input type="password" name="password" id="password">
+            </div>
+
+        </fieldset><!-- FIM DOS CAMPOS DETALHES DE CONTATO -->
+
+        <fieldset><!-- INÍCIO DO CAMPO COMENTÁRIOS -->
+            <legend>Comentários</legend>
+           <div>
+               <label for="mensseger">Mensagem</label>
+               <textarea name="mensseger" id="mensseger" cols="34" rows="8"></textarea>
+
+           </div>
+
+        </fieldset><!-- FIM DO CAMPO COMENTÁRIOS -->
+
+        <fieldset><!-- INÍCIO DO CAMPO SEXO -->
+            <legend>Sexo</legend>
+           <div class="sexo">
+               <label>
+                    <input class="radio"  type="radio" name="sexo" id="sim">Sim
+                </label>
+             
+             
+           </div>
+
+           <div class="sexo">
+         
+             <label>
+                 <input class="radio" type="radio" name="sexo" id="nao">Não
+             </label>
+          
+        </div>
+
+        </fieldset><!-- FIM DO CAMPO SEXO -->
+
+    </form><!-- FIM DO FORMULÁRIO -->
+</body>
+</html>

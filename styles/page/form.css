@@ -1,0 +1,39 @@
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+fieldset {
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    width: 18em;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: 20em;
+}
+
+/* input.radio {
+    width: auto;
+    margin-right: 0.5em;
+    
+} */
+
+.sexo input  {
+    width: auto;
+    margin-right: 0.5em;
+    
+}
