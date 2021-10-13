@@ -37,3 +37,8 @@ input {
     margin-right: 0.5em;
     
 }
+
+.submit{
+    height: 30px;
+    cursor: pointer;
+}
