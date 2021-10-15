@@ -32,10 +32,24 @@ input {
     
 } */
 
-.sexo input  {
-    width: auto;
-    margin-right: 0.5em;
+.sexo  {
+   /* border: 1px solid red; */
+   display: flex;
+   margin-bottom: 1px;
     
+}
+
+.sexo input {
+    width: auto;
+}
+
+.radio {
+    /* border: 1px solid blue; */
+}
+
+.label {
+    /* border: 1px solid green; */
+    padding-left: 2px;
 }
 
 .submit{
